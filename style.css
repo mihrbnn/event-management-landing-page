@@ -1,5 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,900&display=swap');
 
-body{
+html,body{
     font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
 }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* start team */
+.team .card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit:fill
+}
+/* end team */
+
+
+/* start tickets */
+.tickets .card{
+    height: 30rem;
+    width: 20rem;
+}
+.tickets .card-1{
+    background:rgba(255, 135, 25, 0.1);
+    border-radius: 20px; 
+}
+.tickets .card-2{   
+    background: rgba(255, 135, 25, 0.7);
+    border-radius: 20px;
+}
+.tickets img{
+    width: 5rem;
+    height: 5.5rem;
+}
+/* end tickets */
+
+
+.btn-white:hover{
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    transition: 0.8s;  
+}
+
+.btn-light:hover{
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    transition: 0.8s; 
+}
+
+.btn-warning:hover{
+    color: orange !important;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.8s; 
+}
+
+.btn-group .text-secondary:hover{
+    color: white !important;
+    background-color: grey;
+    font-weight: bold;
+    transition: 0.8s; 
+}
+
